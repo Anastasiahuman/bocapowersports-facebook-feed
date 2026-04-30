@@ -83,6 +83,28 @@ Included now:
 - `build_facebook_feed.py` maps scraped data into a Commerce Manager compatible CSV with:
   `id`, `title`, `description`, `availability`, `condition`, `price`, `link`, `image_link`, `brand`, `model`, `year`, `category`.
 
+## Pricing adjustment rule
+
+`build_facebook_feed.py` reads the original scraped website price and applies a configurable rule before export.
+
+Current rule:
+
+```text
+final_price = original_price + 100
+```
+
+Where to change:
+- Open `build_facebook_feed.py`
+- Edit `PRICE_ADJUSTMENT` at the top of the file
+
+Export format:
+- Price is written in Facebook format, for example: `15999 USD`
+
+Testing logs:
+- Script logs both values per listing:
+  - original scraped price
+  - final adjusted price
+
 ## GitHub automation
 
 Workflow file:

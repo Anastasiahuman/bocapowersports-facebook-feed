@@ -26,6 +26,12 @@ OUTPUT_CSV = Path("output/facebook_feed.csv")
 DEFAULT_CURRENCY = "USD"
 DEFAULT_DESCRIPTION_MAX_LEN = 5000
 
+# -----------------------------
+# Pricing config (easy to edit)
+# -----------------------------
+# final_price = original_price + PRICE_ADJUSTMENT
+PRICE_ADJUSTMENT = 100
+
 
 def setup_logger() -> None:
     logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
@@ -59,22 +65,38 @@ def normalize_condition(value: Any) -> str:
     return "used"
 
 
-def normalize_price(value: Any, currency: str) -> str:
-    """
-    Convert price to format like: 15999 USD
-    If missing or invalid -> blank.
-    """
+def parse_original_price(value: Any) -> float | None:
+    """Parse original website price into a numeric value."""
     raw = clean_text(value)
     if not raw:
-        return ""
+        return None
 
     # Keep first number from strings like "$15,999.00" or "15999"
     match = re.search(r"\d+(?:[.,]\d+)?", raw.replace(",", ""))
     if not match:
-        return ""
+        return None
 
-    number = match.group(0)
-    return f"{number} {currency}"
+    try:
+        return float(match.group(0))
+    except ValueError:
+        return None
+
+
+def apply_pricing_rule(original_price: float | None) -> float | None:
+    """Apply configurable pricing rule."""
+    if original_price is None:
+        return None
+    return original_price + PRICE_ADJUSTMENT
+
+
+def format_facebook_price(value: float | None, currency: str) -> str:
+    """Format price for Facebook feed: 15999 USD."""
+    if value is None:
+        return ""
+    # Keep integer style for cleaner feed values.
+    if float(value).is_integer():
+        return f"{int(value)} {currency}"
+    return f"{value:.2f} {currency}"
 
 
 def clean_description(value: Any, max_len: int = DEFAULT_DESCRIPTION_MAX_LEN) -> str:
@@ -163,13 +185,23 @@ def map_row(raw: dict[str, Any], currency: str) -> dict[str, str]:
     if not description:
         description = build_fallback_description(raw)
 
+    original_price = parse_original_price(raw.get("price"))
+    final_price = apply_pricing_rule(original_price)
+
+    logging.info(
+        "Pricing | id=%s | original=%s | final=%s",
+        clean_text(raw.get("id")),
+        original_price if original_price is not None else "N/A",
+        final_price if final_price is not None else "N/A",
+    )
+
     return {
         "id": clean_text(raw.get("id")),
         "title": clean_text(raw.get("title")),
         "description": description,
         "availability": "in stock",
         "condition": normalize_condition(raw.get("condition")),
-        "price": normalize_price(raw.get("price"), currency),
+        "price": format_facebook_price(final_price, currency),
         "link": clean_text(raw.get("listing_url")),
         "image_link": clean_text(raw.get("main_image_url")),
         "brand": clean_text(raw.get("brand_or_make")),
