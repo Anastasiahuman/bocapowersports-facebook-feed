@@ -1,5 +1,48 @@
 [
   {
+    "id": "2020-club-car-tempo-1",
+    "title": "2020 Club Car TEMPO",
+    "price": "4900",
+    "description": "2020 Club Car TEMPOAN2019071516M1 miBLACK/BRN",
+    "listing_url": "https://www.bocapowersports.com/product-page/2020-club-car-tempo-1",
+    "main_image_url": "https://static.wixstatic.com/media/b4963b_8ca69a80b68448eebf88c8726cb53b77~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+    "additional_image_urls": [
+      "https://static.wixstatic.com/media/b4963b_e17031b60a424d86ae4f600eef185bd2~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_c1f691f9edc6483eafa98b9c5a2c962d~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_37c2312511b94eb1ba583ab5bd40fddb~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_d564cb8d1e5544a490e458af3598bf7e~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_013db6c0618d4bc2b782620581beb38e~mv2.png/v1/fit/w_500,h_500,q_90/file.png"
+    ],
+    "brand_or_make": "Club",
+    "model": "Car TEMPO",
+    "year": "2020",
+    "condition": "",
+    "category": "motorcycle/powersports"
+  },
+  {
+    "id": "2020-club-car-tempo",
+    "title": "2020 Club Car TEMPO",
+    "price": "4900",
+    "description": "2020 Club Car TEMPOAN2020075441F1 miRED/BRNCharger included",
+    "listing_url": "https://www.bocapowersports.com/product-page/2020-club-car-tempo",
+    "main_image_url": "https://static.wixstatic.com/media/b4963b_4080ec3fd57640d1930c89f52630aa49~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+    "additional_image_urls": [
+      "https://static.wixstatic.com/media/b4963b_a6bcf661122b4e38a9e512c411b2fdc5~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_d2985b2dbf104c90a5cda9d45e4ddb9e~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_b8f9fbf4cc9f423996f92df0d4357cd7~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_cb7cc362eb364fdeab49ebdf1992d1c8~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_e1007ebe62d74510aebd61ac620b233d~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_c78929b1acbc494ba9e7469e3ea17e06~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_b887e912f4344152b97f8e0ea7100096~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_60878ae8362d4c18ac63a922764a88a2~mv2.png/v1/fit/w_500,h_500,q_90/file.png"
+    ],
+    "brand_or_make": "Club",
+    "model": "Car TEMPO",
+    "year": "2020",
+    "condition": "",
+    "category": "motorcycle/powersports"
+  },
+  {
     "id": "2024-porsche-macan",
     "title": "2024 Porsche Macan",
     "price": "49900",
