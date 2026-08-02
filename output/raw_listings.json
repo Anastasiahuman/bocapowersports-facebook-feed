@@ -106,17 +106,24 @@
   },
   {
     "id": "2018-ford-f-59-fedex-stepvan-1",
-    "title": "",
-    "price": "",
-    "description": "",
+    "title": "2018 Ford F-59 FedEx Stepvan",
+    "price": "39900",
+    "description": "We finance Fedex contractors",
     "listing_url": "https://www.bocapowersports.com/product-page/2018-ford-f-59-fedex-stepvan-1",
-    "main_image_url": "",
-    "additional_image_urls": [],
-    "brand_or_make": "",
-    "model": "",
-    "year": "",
+    "main_image_url": "https://static.wixstatic.com/media/b4963b_1c6425e7efec46f29d35d3f9474f1650~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+    "additional_image_urls": [
+      "https://static.wixstatic.com/media/b4963b_41967d3880904604ac7414d674a3d5a5~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_158690d7186047a0aa24d63775cc1a1b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_72193df671574fba914d8cb3295ea2a2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_27c8620387a8449393260ef28c152812~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_9ea9c0fd3acd4b5b8d34ef6d54ac1c6b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_68eb684d62dd4c558189c00a5561dfdd~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    ],
+    "brand_or_make": "Ford",
+    "model": "F-59 FedEx Stepvan",
+    "year": "2018",
     "condition": "",
-    "category": "motorcycle/powersports"
+    "category": "truck/van"
   },
   {
     "id": "2018-ford-f-59-fedex-stepvan",
@@ -1052,17 +1059,21 @@
   },
   {
     "id": "2024-kendon-stand-up-motorcycle-trailer-bb207ru",
-    "title": "",
-    "price": "",
-    "description": "",
+    "title": "2024 Kendon stand up Motorcycle trailer BB207RU",
+    "price": "4200",
+    "description": "New",
     "listing_url": "https://www.bocapowersports.com/product-page/2024-kendon-stand-up-motorcycle-trailer-bb207ru",
-    "main_image_url": "",
-    "additional_image_urls": [],
-    "brand_or_make": "",
-    "model": "",
-    "year": "",
-    "condition": "",
-    "category": "motorcycle/powersports"
+    "main_image_url": "https://static.wixstatic.com/media/b4963b_c15e8dd25d30499bb473681bca26c480~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+    "additional_image_urls": [
+      "https://static.wixstatic.com/media/b4963b_c2875bdb14084e02b9133adfa48ab108~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_0288907cd8e4485a9371f8f617d70794~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_65bd0f97ba1145fb90d66e78f855b6c0~mv2.png/v1/fit/w_500,h_500,q_90/file.png"
+    ],
+    "brand_or_make": "Kendon",
+    "model": "stand up Motorcycle",
+    "year": "2024",
+    "condition": "new",
+    "category": "trailer"
   },
   {
     "id": "2021-bmw-x1-s-drive",
