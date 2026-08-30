@@ -24,18 +24,21 @@
     "category": "truck/van"
   },
   {
-    "id": "",
-    "title": "",
-    "price": "",
-    "description": "",
+    "id": "2019-ford-f-59-amazon-stepvan",
+    "title": "2019 Ford F-59 Amazon  Stepvan",
+    "price": "45900",
+    "description": "36900 miles   We finance Fedex and Amazon contractors",
     "listing_url": "https://www.bocapowersports.com/product-page/2019-ford-f-59-amazon-stepvan",
-    "main_image_url": "",
-    "additional_image_urls": [],
-    "brand_or_make": "",
-    "model": "",
-    "year": "",
+    "main_image_url": "https://static.wixstatic.com/media/b4963b_39a6fbea4b594d6aa77ef8700cdfb7d4~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+    "additional_image_urls": [
+      "https://static.wixstatic.com/media/b4963b_7b43626db257429bb110acf219b6fc97~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_36b083d7584f4003b8bbb49704aed38c~mv2.png/v1/fit/w_500,h_500,q_90/file.png"
+    ],
+    "brand_or_make": "Ford",
+    "model": "F-59 Amazon Stepvan",
+    "year": "2019",
     "condition": "",
-    "category": ""
+    "category": "truck/van"
   },
   {
     "id": "2020-ford-f-59-amazon-stepvan",
