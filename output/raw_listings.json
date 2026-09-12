@@ -41,18 +41,21 @@
     "category": "truck/van"
   },
   {
-    "id": "",
-    "title": "",
-    "price": "",
-    "description": "",
+    "id": "2020-ford-f-59-amazon-stepvan",
+    "title": "2020 Ford F-59 Amazon  Stepvan",
+    "price": "49900",
+    "description": "16900 miles   We finance Fedex and Amazon contractors",
     "listing_url": "https://www.bocapowersports.com/product-page/2020-ford-f-59-amazon-stepvan",
-    "main_image_url": "",
-    "additional_image_urls": [],
-    "brand_or_make": "",
-    "model": "",
-    "year": "",
+    "main_image_url": "https://static.wixstatic.com/media/b4963b_b3c9ed66601044ddbba44820b0b00841~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+    "additional_image_urls": [
+      "https://static.wixstatic.com/media/b4963b_086aba4e28494ad283aba3456f80f740~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+      "https://static.wixstatic.com/media/b4963b_7b43626db257429bb110acf219b6fc97~mv2.png/v1/fit/w_500,h_500,q_90/file.png"
+    ],
+    "brand_or_make": "Ford",
+    "model": "F-59 Amazon Stepvan",
+    "year": "2020",
     "condition": "",
-    "category": ""
+    "category": "truck/van"
   },
   {
     "id": "2020-ford-transit-fedex-stepvan",
@@ -640,17 +643,32 @@
   },
   {
     "id": "2013-mini-cooper-3d-4c-automatic",
-    "title": "",
-    "price": "",
-    "description": "",
+    "title": "2013 Mini Cooper 3D 4C Automatic",
+    "price": "6900",
+    "description": "2013 Mini Cooper 3D 4C Automatic Great condition. New tires. Maintenance done. We finance.",
     "listing_url": "https://www.bocapowersports.com/product-page/2013-mini-cooper-3d-4c-automatic",
-    "main_image_url": "",
-    "additional_image_urls": [],
-    "brand_or_make": "",
-    "model": "",
-    "year": "",
-    "condition": "",
-    "category": "motorcycle/powersports"
+    "main_image_url": "https://static.wixstatic.com/media/b4963b_fb68bf23fe3a4e328d5d16d287e4bff7~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+    "additional_image_urls": [
+      "https://static.wixstatic.com/media/b4963b_50c5f2463ce64246945b7ebcd0a37ce4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_253db2345b094df29f52821a07db815d~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_e0d23ff048fb4990afafc97712649ac3~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_197348b6c08a4f25a54c14311a02213c~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_b19b39164b3d4cbcb8c906adb1aac53c~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_f4ca4d5e03ac4aec8f5bf9e34d32483df003.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_0f3ec4cc24144b37a0986448b88577d8~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_10b86e97ada643b3aa86a32ae9e77779~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_610f3cf9a1e04c898520af6a4bb8b662~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_18bc00f275f64bf282cc838f356941f5~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_be17c275c6a0477294857747efeafb23~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_c9f08b940100466083d000450248fd2f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_9cb6e927bf3944db844438a17b53cf66~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "https://static.wixstatic.com/media/b4963b_3be76714ab834f629cbd7a92c87e0807~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    ],
+    "brand_or_make": "Mini",
+    "model": "Cooper 3D 4C",
+    "year": "2013",
+    "condition": "new",
+    "category": "car"
   },
   {
     "id": "ynmar",
