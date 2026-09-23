@@ -79,8 +79,8 @@
   },
   {
     "id": "2017-ford-f-59-fedex-stepvan",
-    "title": "2017 Ford F-59 FedEx Stepvan",
-    "price": "39900",
+    "title": "2015 Ford F-59 FedEx Stepvan",
+    "price": "19900",
     "description": "120900 miles   We finance Fedex contractors",
     "listing_url": "https://www.bocapowersports.com/product-page/2017-ford-f-59-fedex-stepvan",
     "main_image_url": "https://static.wixstatic.com/media/b4963b_158690d7186047a0aa24d63775cc1a1b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
@@ -100,14 +100,14 @@
     ],
     "brand_or_make": "Ford",
     "model": "F-59 FedEx Stepvan",
-    "year": "2017",
+    "year": "2015",
     "condition": "",
     "category": "truck/van"
   },
   {
     "id": "2018-ford-f-59-fedex-stepvan-1",
-    "title": "2018 Ford F-59 FedEx Stepvan",
-    "price": "39900",
+    "title": "2013 Ford F-59 FedEx Stepvan",
+    "price": "19900",
     "description": "We finance Fedex contractors",
     "listing_url": "https://www.bocapowersports.com/product-page/2018-ford-f-59-fedex-stepvan-1",
     "main_image_url": "https://static.wixstatic.com/media/b4963b_1c6425e7efec46f29d35d3f9474f1650~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
@@ -121,7 +121,7 @@
     ],
     "brand_or_make": "Ford",
     "model": "F-59 FedEx Stepvan",
-    "year": "2018",
+    "year": "2013",
     "condition": "",
     "category": "truck/van"
   },
